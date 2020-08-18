@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 60px;
+    color: black;
+}
+
+.block{
+    width:100% ;
+    height:600px;
+    
+    margin-top: 30px;
+    /* display: flex; */
+    position: relative;
+    
+}
+
+.one{
+    /* height:200px; */
+    width:31%;
+    background-color: rgb(153,153,153);
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border: 2px solid black;
+    float: left;
+    
+    
+    
+
+}
+.two{
+    /* height:200px; */
+    width:31%;
+    background-color: rgb(153,153,153);
+    margin-right: 10px;
+    margin-top: 100px;
+    border: 2px solid black;
+    float: left;
+    
+}
+.three{
+    /* height:100%; */
+    width:31%;
+    background-color:rgb(153,153,153) ;
+    margin-right: 10px;
+    margin-top: 100px;
+    border: 2px solid black;
+    float: left;
+    
+}
+
+.t1{
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: rgb(213,152,152);
+    float: right;
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.t2{
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color: rgb(193,69,67);
+    float: right;
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+
+.t3{
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    background-color:rgb(229,209,152);
+    float: right;
+    border-left:2px solid black;
+    border-bottom:2px solid black;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+.p1{
+padding:20px;
+text-align: left;
+margin-top: 30px;
+font-size: 20px;
+color: black;
+font-weight: bold;
+
+
+}
+.p2{
+    padding:20px;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+   
+    
+    }
+    .p3{
+        padding:20px;
+        text-align: left;
+        margin-top: 30px;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        
+        
+        }
+
+        @media (min-width: 992px){
+            .one{
+                width: 31%;
+            }
+            .two{
+                width: 31%;
+            }
+            .three{
+                width: 31%;
+            }
+        }
+        @media (min-width: 778px) and (max-width: 991px){
+            .one{
+                width: 46%;
+            }
+            .two{
+                width: 46%;
+            }
+            .three{
+                width: 94%;
+            }
+        }
+        @media (max-width: 777px){
+            .one{
+                width: 95%;
+            }
+            .two{
+                width: 95%;
+            }
+            .three{
+                width: 95%;
+            }
+        }
